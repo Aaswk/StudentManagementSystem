@@ -11,6 +11,9 @@ void showMenu() {
     printf("3. 修改学生\n");
     printf("4. 查询学生\n");
     printf("5. 显示全部学生\n");
+    printf("6. 成绩升序排序\n");
+    printf("7. 成绩降序排序\n");
+    printf("8. 数据统计\n");
     printf("0. 退出系统\n");
     printf("请选择功能: ");
 }
@@ -79,7 +82,18 @@ int main() {
         case 5:
             printStudents(head);
             break;
+        case 6:
+            sortStudents(head, 1);
+            printStudents(head);
+            break;
 
+        case 7:
+            sortStudents(head, 0);
+            printStudents(head);
+            break;
+        case 8:
+            statistics(head);
+            break;
         default:
             printf("无效输入，请重新选择。\n");
         }

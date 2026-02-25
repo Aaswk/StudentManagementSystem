@@ -37,7 +37,7 @@ Student* createStudent(int id, const char* name, int age, float score) {
     return newStudent;
 }
 
-//尾插法
+//增（尾插法）
 void appendStudent(Student* head, Student* newStudent) {
     Student* temp = head;
 
@@ -49,7 +49,7 @@ void appendStudent(Student* head, Student* newStudent) {
     newStudent->prev = temp;
 }
 
-//打印链表
+//遍历
 void printStudents(Student* head) {
     Student* temp = head->next;
 
@@ -71,7 +71,7 @@ void printStudents(Student* head) {
     }
 }
 
-//查找学生
+//查
 Student* findStudentById(Student* head, int id) {
     Student* temp = head->next;
 
@@ -85,7 +85,7 @@ Student* findStudentById(Student* head, int id) {
     return NULL;
 }
 
-//删除学生
+//删
 void deleteStudent(Student* head, int id) {
     Student* target = findStudentById(head, id);
 
@@ -105,7 +105,7 @@ void deleteStudent(Student* head, int id) {
     printf("删除成功。\n");
 }
 
-//修改学生
+//改
 void modifyStudent(Student* head, int id) {
     Student* target = findStudentById(head, id);
 
@@ -124,4 +124,78 @@ void modifyStudent(Student* head, int id) {
     scanf("%f", &target->score);
 
     printf("修改成功。\n");
+}
+
+//排序
+void sortStudents(Student* head, int ascending) {
+    if (head->next == NULL) {
+        printf("没有学生数据可排序。\n");
+        return;
+    }
+
+    Student* i;
+    Student* j;
+    for (i = head->next; i->next != NULL; i = i->next) {
+        for (j = head->next; j->next != NULL; j = j->next) {
+            int condition;
+
+            if (ascending) condition = j->score > j->next->score;
+            else condition = j->score < j->next->score;
+
+            if (condition) {
+                // 交换数据
+                int tempId = j->id;
+                char tempName[50];
+                int tempAge = j->age;
+                float tempScore = j->score;
+
+                strcpy(tempName, j->name);
+
+                j->id = j->next->id;
+                strcpy(j->name, j->next->name);
+                j->age = j->next->age;
+                j->score = j->next->score;
+
+                j->next->id = tempId;
+                strcpy(j->next->name, tempName);
+                j->next->age = tempAge;
+                j->next->score = tempScore;
+            }
+        }
+    }
+
+    printf("排序完成。\n");
+}
+
+//数据统计
+void statistics(Student* head) {
+    Student* temp = head->next;
+
+    if (temp == NULL) {
+        printf("暂无学生数据。\n");
+        return;
+    }
+
+    int count = 0;
+    float sum = 0;
+    float max = temp->score;
+    float min = temp->score;
+
+    while (temp != NULL) {
+        count++;
+        sum += temp->score;
+
+        if (temp->score > max)
+            max = temp->score;
+
+        if (temp->score < min)
+            min = temp->score;
+
+        temp = temp->next;
+    }
+
+    printf("学生总数: %d\n", count);
+    printf("平均成绩: %.2f\n", sum / count);
+    printf("最高成绩: %.2f\n", max);
+    printf("最低成绩: %.2f\n", min);
 }

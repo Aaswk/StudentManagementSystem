@@ -18,17 +18,23 @@ Student* initList();
 // 创建新节点
 Student* createStudent(int id, const char* name, int age, float score);
 
-// 尾插法添加学生
+// 增（尾插法）
 void appendStudent(Student* head, Student* newStudent);
 
-// 遍历打印所有学生
+// 遍历
 void printStudents(Student* head);
 
-// 按ID查找学生
+// 查
 Student* findStudentById(Student* head, int id);
 
-// 删除学生
+// 删
 void deleteStudent(Student* head, int id);
 
-// 修改学生
+// 改
 void modifyStudent(Student* head, int id);
+
+//排序
+void sortStudents(Student* head, int ascending);
+
+//数据统计
+void statistics(Student* head);
