@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\user.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\student.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\student.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "user.c",
+              "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.c",
+              "RelativeDocumentMoniker": "Project1\\user.c",
+              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.c",
+              "RelativeToolTip": "Project1\\user.c",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-25T16:48:21.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "user.h",
+              "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.h",
+              "RelativeDocumentMoniker": "Project1\\user.h",
+              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.h",
+              "RelativeToolTip": "Project1\\user.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-25T16:48:04.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "file.c",
               "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\file.c",
               "RelativeDocumentMoniker": "Project1\\file.c",
@@ -46,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "file.h",
               "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\file.h",
               "RelativeDocumentMoniker": "Project1\\file.h",
@@ -58,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "student.h",
               "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\student.h",
               "RelativeDocumentMoniker": "Project1\\student.h",
@@ -66,12 +100,11 @@
               "RelativeToolTip": "Project1\\student.h",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-25T14:26:59.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-25T14:26:59.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "student.c",
               "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\student.c",
               "RelativeDocumentMoniker": "Project1\\student.c",
@@ -79,8 +112,7 @@
               "RelativeToolTip": "Project1\\student.c",
               "ViewState": "AgIAALMAAAAAAAAAAAAqwMgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-02-25T14:26:34.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-25T14:26:34.732Z"
             },
             {
               "$type": "Document",
@@ -90,7 +122,7 @@
               "RelativeDocumentMoniker": "Project1\\main.c",
               "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\main.c",
               "RelativeToolTip": "Project1\\main.c",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAIYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-02-25T14:26:05.029Z",
               "EditorCaption": ""

@@ -24,12 +24,18 @@
     <ClCompile Include="file.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="user.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="student.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include "student.h"
 #include "file.h"
+#include "user.h"
 
 void showMenu() {
     printf("\n===== 学生管理系统 =====\n");
@@ -19,19 +20,43 @@ void showMenu() {
 }
 
 int main() {
-    Student* head = initList();
-    loadFromFile(head);
+
     int choice;
 
+    // ===== 第一阶段：登录注册界面 =====
     while (1) {
-        showMenu();
+        printf("\n===== 欢迎使用学生管理系统 =====\n");
+        printf("1. 登录\n");
+        printf("2. 注册\n");
+        printf("0. 退出\n");
+        printf("请选择: ");
         scanf("%d", &choice);
 
         if (choice == 0) {
-            saveToFile(head);
-            printf("系统已退出。\n");
-            break;
+            printf("系统退出。\n");
+            return 0;
         }
+
+        if (choice == 2) {
+            registerUser();
+        }
+
+        if (choice == 1) {
+            int role = loginUser();
+            if (role != 0) {
+                break;   // 登录成功，跳出循环
+            }
+        }
+    }
+
+    // ===== 第二阶段：初始化学生数据 =====
+    Student* head = initList();
+    loadFromFile(head);
+
+    // ===== 第三阶段：学生管理菜单 =====
+    while (1) {
+        showMenu();
+        scanf("%d", &choice);
 
         int id, age;
         float score;
@@ -64,8 +89,7 @@ int main() {
             modifyStudent(head, id);
             break;
 
-        case 4:
-        {
+        case 4: {
             printf("输入要查询的学号: ");
             scanf("%d", &id);
             Student* s = findStudentById(head, id);
@@ -82,6 +106,7 @@ int main() {
         case 5:
             printStudents(head);
             break;
+
         case 6:
             sortStudents(head, 1);
             printStudents(head);
@@ -91,9 +116,16 @@ int main() {
             sortStudents(head, 0);
             printStudents(head);
             break;
+
         case 8:
             statistics(head);
             break;
+
+        case 0:
+            saveToFile(head);
+            printf("数据已保存，系统退出。\n");
+            return 0;
+
         default:
             printf("无效输入，请重新选择。\n");
         }
