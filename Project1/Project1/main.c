@@ -22,6 +22,7 @@ void showMenu() {
 int main() {
 
     int choice;
+    int role = 0;
 
     // ===== 第一阶段：登录注册界面 =====
     while (1) {
@@ -42,9 +43,9 @@ int main() {
         }
 
         if (choice == 1) {
-            int role = loginUser();
+            role = loginUser();
             if (role != 0) {
-                break;   // 登录成功，跳出循环
+                break;
             }
         }
     }
@@ -64,6 +65,10 @@ int main() {
 
         switch (choice) {
         case 1:
+            if (role == 1) {
+                printf("学生无权添加！\n");
+                break;
+            }
             printf("输入学号: ");
             scanf("%d", &id);
             printf("输入姓名: ");
@@ -78,12 +83,21 @@ int main() {
             break;
 
         case 2:
+            if (role == 1) {
+                printf("学生无权删除！\n");
+                break;
+            }
+
             printf("输入要删除的学号: ");
             scanf("%d", &id);
             deleteStudent(head, id);
             break;
 
         case 3:
+            if (role == 1) {
+                printf("学生无权修改！\n");
+                break;
+            }
             printf("输入要修改的学号: ");
             scanf("%d", &id);
             modifyStudent(head, id);
