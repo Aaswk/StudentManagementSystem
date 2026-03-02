@@ -34,7 +34,7 @@ void deleteStudent(Student* head, int id);
 void modifyStudent(Student* head, int id);
 
 //排序
-void sortStudents(Student* head, int ascending);
+void sortStudents(Student* head, int ascending);//升序
 
 //数据统计
 void statistics(Student* head);

@@ -24,7 +24,7 @@ int main() {
     int choice;
     int role = 0;
 
-    // ===== 第一阶段：登录注册界面 =====
+    //第一阶段：登录注册界面
     while (1) {
         printf("\n===== 欢迎使用学生管理系统 =====\n");
         printf("1. 登录\n");
@@ -50,11 +50,11 @@ int main() {
         }
     }
 
-    // ===== 第二阶段：初始化学生数据 =====
+    //第二阶段：初始化学生数据
     Student* head = initList();
     loadFromFile(head);
 
-    // ===== 第三阶段：学生管理菜单 =====
+    //第三阶段：学生管理菜单
     while (1) {
         showMenu();
         scanf("%d", &choice);
@@ -108,8 +108,7 @@ int main() {
             scanf("%d", &id);
             Student* s = findStudentById(head, id);
             if (s != NULL) {
-                printf("找到学生: %d %s %d %.2f\n",
-                    s->id, s->name, s->age, s->score);
+                printf("找到学生: %d %s %d %.2f\n",s->id, s->name, s->age, s->score);
             }
             else {
                 printf("未找到该学生。\n");

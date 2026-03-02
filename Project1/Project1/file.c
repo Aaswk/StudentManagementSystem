@@ -6,7 +6,7 @@
 
 //保存文件
 void saveToFile(Student* head) {
-    FILE* fp = fopen(DATA_FILE, "wb");
+    FILE* fp = fopen(DATA_FILE, "wb");//只写二进制
     if (fp == NULL) {
         printf("文件打开失败！\n");
         return;
@@ -14,7 +14,7 @@ void saveToFile(Student* head) {
 
     Student* temp = head->next;
 
-    while (temp != NULL) {
+    while (temp) {
         fwrite(&(temp->id), sizeof(int), 1, fp);
         fwrite(temp->name, sizeof(char), 50, fp);
         fwrite(&(temp->age), sizeof(int), 1, fp);

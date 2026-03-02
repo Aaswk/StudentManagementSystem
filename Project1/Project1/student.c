@@ -1,10 +1,10 @@
 #define _CRT_SECURE_NO_WARNINGS
-//初始化链表
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "student.h"
 
+//初始化链表
 Student* initList() {
     Student* head = (Student*)malloc(sizeof(Student));
     if (head == NULL) {
@@ -61,12 +61,7 @@ void printStudents(Student* head) {
     printf("ID\t姓名\t年龄\t成绩\n");
 
     while (temp != NULL) {
-        printf("%d\t%s\t%d\t%.2f\n",
-            temp->id,
-            temp->name,
-            temp->age,
-            temp->score);
-
+        printf("%d\t%s\t%d\t%.2f\n",temp->id,temp->name,temp->age,temp->score);
         temp = temp->next;
     }
 }
@@ -129,7 +124,7 @@ void modifyStudent(Student* head, int id) {
 //排序
 void sortStudents(Student* head, int ascending) {
     if (head->next == NULL) {
-        printf("没有学生数据可排序。\n");
+        printf("没有学生数据可供排序。\n");
         return;
     }
 
@@ -143,13 +138,12 @@ void sortStudents(Student* head, int ascending) {
             else condition = j->score < j->next->score;
 
             if (condition) {
-                // 交换数据
+                // 保存
                 int tempId = j->id;
                 char tempName[50];
+                strcpy(tempName, j->name);
                 int tempAge = j->age;
                 float tempScore = j->score;
-
-                strcpy(tempName, j->name);
 
                 j->id = j->next->id;
                 strcpy(j->name, j->next->name);
@@ -185,11 +179,8 @@ void statistics(Student* head) {
         count++;
         sum += temp->score;
 
-        if (temp->score > max)
-            max = temp->score;
-
-        if (temp->score < min)
-            min = temp->score;
+        if (temp->score > max) max = temp->score;
+        if (temp->score < min) min = temp->score;
 
         temp = temp->next;
     }
