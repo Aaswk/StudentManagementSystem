@@ -190,3 +190,37 @@ void statistics(Student* head) {
     printf("最高成绩: %.2f\n", max);
     printf("最低成绩: %.2f\n", min);
 }
+
+//导出学生数据
+void exportStudents(Student* head) {
+    FILE* fp = fopen("students_export.txt", "w");
+    if (fp == NULL) {
+        printf("导出失败。\n");
+        return;
+    }
+    Student* p = head->next;
+    while (p) {
+        fprintf(fp, "%d %s %d %.2f\n", p->id, p->name, p->age, p->score);
+        p = p->next;
+    }
+    fclose(fp);
+    printf("学生数据导出成功。\n");
+}
+
+//待办
+void showTodoList(Student* head) {
+    Student* p = head->next;
+    int found = 0;
+
+    printf("\n===== 待处理学生 (成绩 < 60) =====\n");
+    while (p) {
+        if (p->score < 60) {
+            printf("%d %s %.2f\n",
+                p->id, p->name, p->score);
+            found = 1;
+        }
+        p = p->next;
+    }
+    if (!found)
+        printf("暂无待处理学生。\n");
+}

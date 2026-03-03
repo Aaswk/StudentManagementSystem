@@ -175,3 +175,21 @@ void changeUserRole() {
     if (found) printf("修改成功。\n");
     else printf("未找到该用户。\n");
 }
+
+//导出用户数据
+void exportUsersToTxt() {
+    FILE* fp = fopen(USER_FILE, "rb");
+    if (fp == NULL) {
+        printf("暂无用户数据。\n");
+        return;
+    }
+    FILE* out = fopen("users_export.txt", "w");
+
+    User temp;
+    while (fread(&temp, sizeof(User), 1, fp) == 1) {
+        fprintf(out, "%s %d\n",temp.username, temp.role);
+    }
+    fclose(fp);
+    fclose(out);
+    printf("用户数据导出成功。\n");
+}

@@ -16,3 +16,6 @@ int loginUser();
 void listUsers();
 void deleteUser();
 void changeUserRole();
+
+//导出用户数据
+void exportUsers();

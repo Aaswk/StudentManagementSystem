@@ -38,3 +38,9 @@ void sortStudents(Student* head, int ascending);//升序
 
 //数据统计
 void statistics(Student* head);
+
+//导出学生数据
+void exportStudents(Student* head);
+
+//待办（成绩低于60）
+void showTodoList(Student* head);
