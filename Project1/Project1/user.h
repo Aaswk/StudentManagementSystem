@@ -11,3 +11,8 @@ typedef struct User {
 
 void registerUser();
 int loginUser();
+
+//管理员系统完善：查看所有用户，删除用户，修改用户角色
+void listUsers();
+void deleteUser();
+void changeUserRole();

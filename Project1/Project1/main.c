@@ -56,13 +56,42 @@ int main() {
 
     //第三阶段：学生管理菜单
     while (1) {
-        showMenu();
+        if (role == 3) {
+            printf("\n===== 管理员菜单 =====\n");
+            printf("1.查看用户\n");
+            printf("2.删除用户\n");
+            printf("3.修改用户角色\n");
+            printf("0.退出\n");
+        }
+        else{
+            showMenu();
+        }
         scanf("%d", &choice);
 
         int id, age;
         float score;
         char name[50];
 
+        if (role == 3) {
+            switch (choice) {
+            case 1:
+                listUsers();
+                break;
+            case 2:
+                deleteUser();
+                break;
+            case 3:
+                changeUserRole();
+                break;
+            case 0:
+                saveToFile(head);
+                printf("系统退出。\n");
+                return 0;
+            default:
+                printf("无效输入。\n");
+            }
+            continue;
+        }
         switch (choice) {
         case 1:
             if (role == 1) {

@@ -95,3 +95,83 @@ int loginUser() {
     printf("用户名或密码错误。\n");
     return 0;
 }
+
+//查看所有用户
+void listUsers() {
+    FILE* fp = fopen(USER_FILE, "rb");
+    if (fp == NULL) {
+        printf("暂无用户。\n");
+        return;
+    }
+    User temp;
+    printf("\n===== 用户列表 =====\n");
+    while (fread(&temp, sizeof(User), 1, fp) == 1) {
+        printf("用户名：%s  角色：%d\n", temp.username, temp.role);
+    }
+    fclose(fp);
+}
+
+//删除用户（学习临时文件覆盖法）
+void deleteUser() {
+    char username[USERNAME_LEN];
+    printf("输入要删除的用户名：");
+    scanf("%s", username);
+
+    FILE* fp = fopen(USER_FILE, "rb");
+    if (fp == NULL) {
+        printf("文件不存在。\n");
+        return;
+    }
+
+    FILE* tempFile = fopen("temp.dat", "wb");
+    User temp;
+    int found = 0;
+    while (fread(&temp, sizeof(User), 1, fp) == 1) {
+        if (strcmp(temp.username, username) != 0) {
+            fwrite(&temp, sizeof(User), 1, tempFile);
+        }
+        else {
+            found = 1;
+        }
+    }
+    fclose(fp);
+    fclose(tempFile);
+    remove(USER_FILE);
+    rename("temp.dat", USER_FILE);
+
+    if (found) printf("删除成功。\n");
+    else printf("未找到该用户。\n");
+}
+
+//修改用户角色
+void changeUserRole() {
+    char username[USERNAME_LEN];
+    printf("输入要修改的用户名：");
+    scanf("%s", username);
+
+    FILE* fp = fopen(USER_FILE, "rb");
+    if (fp == NULL) {
+        printf("文件不存在。\n");
+        return;
+    }
+
+    FILE* tempFile = fopen("temp.dat", "wb");
+    User temp;
+    int found = 0;
+    while (fread(&temp, sizeof(User), 1, fp) == 1) {
+        if (strcmp(temp.username, username) == 0) {
+            printf("当前角色：%d\n", temp.role);
+            printf("输入新角色（1=学生 2=老师 3=管理员）：");
+            scanf("%d", &temp.role);
+            found = 1;
+        }
+        fwrite(&temp, sizeof(User), 1, tempFile);
+    }
+    fclose(fp);
+    fclose(tempFile);
+    remove(USER_FILE);
+    rename("temp.dat", USER_FILE);
+
+    if (found) printf("修改成功。\n");
+    else printf("未找到该用户。\n");
+}
