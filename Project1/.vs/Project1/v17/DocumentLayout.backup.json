@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\user.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\student.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -42,29 +42,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "user.c",
               "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.c",
               "RelativeDocumentMoniker": "Project1\\user.c",
-              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.c*",
-              "RelativeToolTip": "Project1\\user.c*",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGMAAAAOAAAAAAAAAA==",
+              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.c",
+              "RelativeToolTip": "Project1\\user.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-02-25T16:48:21.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "user.h",
               "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.h",
               "RelativeDocumentMoniker": "Project1\\user.h",
-              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.h*",
-              "RelativeToolTip": "Project1\\user.h*",
+              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\user.h",
+              "RelativeToolTip": "Project1\\user.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-25T16:48:04.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-25T16:48:04.362Z"
             },
             {
               "$type": "Document",
@@ -122,7 +121,7 @@
               "RelativeDocumentMoniker": "Project1\\main.c",
               "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\main.c*",
               "RelativeToolTip": "Project1\\main.c*",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-02-25T14:26:05.029Z",
               "EditorCaption": ""

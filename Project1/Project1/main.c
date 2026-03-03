@@ -5,6 +5,10 @@
 #include "file.h"
 #include "user.h"
 
+void studentMenu(Student* head);
+void teacherMenu(Student* head);
+void adminMenu(Student* head);
+
 void showMenu() {
     printf("\n===== 学生管理系统 =====\n");
     printf("1. 添加学生\n");
@@ -54,124 +58,103 @@ int main() {
     Student* head = initList();
     loadFromFile(head);
 
-    //第三阶段：学生管理菜单
-    while (1) {
-        if (role == 3) {
-            printf("\n===== 管理员菜单 =====\n");
-            printf("1.查看用户\n");
-            printf("2.删除用户\n");
-            printf("3.修改用户角色\n");
-            printf("0.退出\n");
-        }
-        else{
-            showMenu();
-        }
-        scanf("%d", &choice);
-
-        int id, age;
-        float score;
-        char name[50];
-
-        if (role == 3) {
-            switch (choice) {
-            case 1:
-                listUsers();
-                break;
-            case 2:
-                deleteUser();
-                break;
-            case 3:
-                changeUserRole();
-                break;
-            case 0:
-                saveToFile(head);
-                printf("系统退出。\n");
-                return 0;
-            default:
-                printf("无效输入。\n");
-            }
-            continue;
-        }
-        switch (choice) {
-        case 1:
-            if (role == 1) {
-                printf("学生无权添加！\n");
-                break;
-            }
-            printf("输入学号: ");
-            scanf("%d", &id);
-            printf("输入姓名: ");
-            scanf("%s", name);
-            printf("输入年龄: ");
-            scanf("%d", &age);
-            printf("输入成绩: ");
-            scanf("%f", &score);
-
-            appendStudent(head, createStudent(id, name, age, score));
-            printf("添加成功。\n");
-            break;
-
-        case 2:
-            if (role == 1) {
-                printf("学生无权删除！\n");
-                break;
-            }
-
-            printf("输入要删除的学号: ");
-            scanf("%d", &id);
-            deleteStudent(head, id);
-            break;
-
-        case 3:
-            if (role == 1) {
-                printf("学生无权修改！\n");
-                break;
-            }
-            printf("输入要修改的学号: ");
-            scanf("%d", &id);
-            modifyStudent(head, id);
-            break;
-
-        case 4: {
-            printf("输入要查询的学号: ");
-            scanf("%d", &id);
-            Student* s = findStudentById(head, id);
-            if (s != NULL) {
-                printf("找到学生: %d %s %d %.2f\n",s->id, s->name, s->age, s->score);
-            }
-            else {
-                printf("未找到该学生。\n");
-            }
-            break;
-        }
-
-        case 5:
-            printStudents(head);
-            break;
-
-        case 6:
-            sortStudents(head, 1);
-            printStudents(head);
-            break;
-
-        case 7:
-            sortStudents(head, 0);
-            printStudents(head);
-            break;
-
-        case 8:
-            statistics(head);
-            break;
-
-        case 0:
-            saveToFile(head);
-            printf("数据已保存，系统退出。\n");
-            return 0;
-
-        default:
-            printf("无效输入，请重新选择。\n");
-        }
+    //第三阶段：三端架构、角色控制
+    if (role == 1) {
+        studentMenu(head);
+    }
+    else if (role == 2) {
+        teacherMenu(head);
+    }
+    else if (role == 3) {
+        adminMenu(head);
     }
 
+    saveToFile(head);
     return 0;
+}
+
+//学生端
+void studentMenu(Student* head) {
+    int choice;
+    while (1) {
+        printf("\n===== 学生端 =====\n");
+        printf("1.成绩查询\n");
+        printf("2.成绩分析\n");
+        printf("0.返回上一级\n");
+        printf("请选择：");
+        scanf("%d", &choice);
+
+        switch (choice) {
+        case 1:
+            printf("进入成绩查询功能\n");
+            break;
+        case 2:
+            printf("进入成绩分析功能\n");
+            break;
+        case 0:
+            return;
+        default:
+            printf("无效输入。\n");
+        }
+    }
+}
+
+//教师端
+void teacherMenu(Student* head) {
+    int choice;
+    while (1) {
+        printf("\n===== 教师端 =====\n");
+        printf("1.增删改查学生信息\n");
+        printf("2.查看班内成绩\n");
+        printf("3.成绩分析\n");
+        printf("0.返回上一层\n");
+        printf("请选择：");
+        scanf("%d", &choice);
+
+        switch (choice) {
+        case 1:
+            printf("进入学生管理系统\n");
+            break;
+        case 2:
+            printf("进入班内成绩查看\n");
+            break;
+        case 3:
+            printf("进入成绩分析\n");
+            break;
+        case 0:
+            return;
+        default:
+            printf("无效输入。\n");
+        }
+    }
+}
+
+//管理员端
+void adminMenu(Student* head) {
+    int choice;
+    while (1) {
+        printf("\n===== 管理员端 =====\n");
+        printf("1.账号管理\n");
+        printf("2.数据导入导出\n");
+        printf("3.查看待办\n");
+        printf("0.返回上一级\n");
+        printf("请选择：");
+        scanf("%d", &choice);
+
+        switch (choice) {
+        case 1:
+            printf("进入账号管理\n");
+            break;
+        case 2:
+            printf("进入数据导入导出\n");
+            break;
+        case 3:
+            printf("查看待办\n");
+            break;
+        case 0:
+            return;
+        default:
+            printf("无效输入。\n");
+        }
+    }
 }
