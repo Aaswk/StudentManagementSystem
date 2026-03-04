@@ -102,6 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,15 +124,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="file.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="student.c" />
-    <ClCompile Include="user.c" />
+    <ClCompile Include="src\file.c" />
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\student.c" />
+    <ClCompile Include="src\user.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="file.h" />
-    <ClInclude Include="student.h" />
-    <ClInclude Include="user.h" />
+    <ClInclude Include="include\file.h" />
+    <ClInclude Include="include\student.h" />
+    <ClInclude Include="include\user.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

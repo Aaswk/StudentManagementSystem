@@ -123,7 +123,7 @@ void deleteUser() {
         return;
     }
 
-    FILE* tempFile = fopen("temp.dat", "wb");
+    FILE* tempFile = fopen("data/temp.dat", "wb");
     User temp;
     int found = 0;
     while (fread(&temp, sizeof(User), 1, fp) == 1) {
@@ -155,7 +155,7 @@ void changeUserRole() {
         return;
     }
 
-    FILE* tempFile = fopen("temp.dat", "wb");
+    FILE* tempFile = fopen("data/temp.dat", "wb");
     User temp;
     int found = 0;
     while (fread(&temp, sizeof(User), 1, fp) == 1) {
@@ -177,13 +177,13 @@ void changeUserRole() {
 }
 
 //导出用户数据
-void exportUsersToTxt() {
+void exportUsers() {
     FILE* fp = fopen(USER_FILE, "rb");
     if (fp == NULL) {
         printf("暂无用户数据。\n");
         return;
     }
-    FILE* out = fopen("users_export.txt", "w");
+    FILE* out = fopen("data/users_export.txt", "w");
 
     User temp;
     while (fread(&temp, sizeof(User), 1, fp) == 1) {
