@@ -15,6 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\student.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\user.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="src\file.c">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -27,16 +38,5 @@
     <ClCompile Include="src\user.c">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="include\file.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\student.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="include\user.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

@@ -124,15 +124,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\file.h" />
+    <ClInclude Include="include\student.h" />
+    <ClInclude Include="include\user.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="src\file.c" />
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\student.c" />
     <ClCompile Include="src\user.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="include\file.h" />
-    <ClInclude Include="include\student.h" />
-    <ClInclude Include="include\user.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
