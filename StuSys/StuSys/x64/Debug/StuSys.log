@@ -1,0 +1,7 @@
+﻿D:\VS2022‘’‘\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Project1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  file.c
+  main.c
+  student.c
+  user.c
+  正在生成代码...
+  StuSys.vcxproj -> D:\code_\学生管理系统\StudentManagementSystem\StuSys\x64\Debug\StuSys.exe

@@ -1,34 +1,27 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\",
+  "WorkspaceRootPath": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\StuSys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\file.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\include\\file.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\file.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\include\\student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\user.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\include\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\student.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\file.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\src\\file.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\src\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\file.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\student.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\src\\student.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\user.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E96D8692-E842-4A4D-80D0-E40E3B2FF72A}|Project1\\Project1.vcxproj|solutionrelative:Project1\\src\\user.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,94 +35,86 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "user.c",
               "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\user.c",
-              "RelativeDocumentMoniker": "Project1\\src\\user.c",
+              "RelativeDocumentMoniker": "..\\Project1\\Project1\\src\\user.c",
               "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\user.c",
-              "RelativeToolTip": "Project1\\src\\user.c",
+              "RelativeToolTip": "..\\Project1\\Project1\\src\\user.c",
               "ViewState": "AgIAALoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-04T10:50:34.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "student.c",
-              "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\student.c",
-              "RelativeDocumentMoniker": "Project1\\src\\student.c",
-              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\student.c",
-              "RelativeToolTip": "Project1\\src\\student.c",
-              "ViewState": "AgIAAM4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-04T10:50:32.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "main.c",
-              "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\main.c",
-              "RelativeDocumentMoniker": "Project1\\src\\main.c",
-              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\main.c",
-              "RelativeToolTip": "Project1\\src\\main.c",
-              "ViewState": "AgIAABEBAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-04T10:50:31.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "file.c",
-              "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\file.c",
-              "RelativeDocumentMoniker": "Project1\\src\\file.c",
-              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\file.c",
-              "RelativeToolTip": "Project1\\src\\file.c",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-04T10:50:30.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T10:50:34.336Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "user.h",
-              "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\user.h",
-              "RelativeDocumentMoniker": "Project1\\include\\user.h",
-              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\user.h",
-              "RelativeToolTip": "Project1\\include\\user.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-04T10:50:28.91Z",
-              "EditorCaption": ""
+              "Title": "student.c",
+              "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\student.c",
+              "RelativeDocumentMoniker": "..\\Project1\\Project1\\src\\student.c",
+              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\student.c",
+              "RelativeToolTip": "..\\Project1\\Project1\\src\\student.c",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-04T10:50:32.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "main.c",
+              "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\main.c",
+              "RelativeDocumentMoniker": "..\\Project1\\Project1\\src\\main.c",
+              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\main.c",
+              "RelativeToolTip": "..\\Project1\\Project1\\src\\main.c",
+              "ViewState": "AgIAABEBAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-04T10:50:31.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "file.c",
+              "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\file.c",
+              "RelativeDocumentMoniker": "..\\Project1\\Project1\\src\\file.c",
+              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\src\\file.c",
+              "RelativeToolTip": "..\\Project1\\Project1\\src\\file.c",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-04T10:50:30.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "user.h",
+              "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\user.h",
+              "RelativeDocumentMoniker": "..\\Project1\\Project1\\include\\user.h",
+              "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\user.h",
+              "RelativeToolTip": "..\\Project1\\Project1\\include\\user.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-04T10:50:28.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "student.h",
               "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\student.h",
-              "RelativeDocumentMoniker": "Project1\\include\\student.h",
+              "RelativeDocumentMoniker": "..\\Project1\\Project1\\include\\student.h",
               "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\student.h",
-              "RelativeToolTip": "Project1\\include\\student.h",
+              "RelativeToolTip": "..\\Project1\\Project1\\include\\student.h",
               "ViewState": "AgIAACQAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-04T10:50:27.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T10:50:27.689Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "file.h",
               "DocumentMoniker": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\file.h",
-              "RelativeDocumentMoniker": "Project1\\include\\file.h",
+              "RelativeDocumentMoniker": "..\\Project1\\Project1\\include\\file.h",
               "ToolTip": "D:\\code_\\\u5B66\u751F\u7BA1\u7406\u7CFB\u7EDF\\StudentManagementSystem\\Project1\\Project1\\include\\file.h",
-              "RelativeToolTip": "Project1\\include\\file.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\Project1\\Project1\\include\\file.h",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-04T10:50:25.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T10:50:25.486Z"
             }
           ]
         }
